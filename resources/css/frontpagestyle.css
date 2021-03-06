@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background:#c0c0c0;
+    display: block;
+    visibility: hidden;
+}
+::-webkit-scrollbar:hover{
+    display: block;
+    visibility: visible;
+}
+
+::-webkit-scrollbar-thumb{
+     border-radius: 8px;
+     background-color: #2aabd2;
+     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    display: block;
+    visibility: hidden;
+ }
+::-webkit-scrollbar-thumb:hover{
+    visibility: visible;
+}
+
+.stickybar{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    z-index: 100000;
+    width: 100%;
+}
+
+.slider{
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-caption>h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 4px 2px #000;
+    font-family: "Monotype Corsiva";
+}
+
+.carousel-caption>p{
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0 4px 2px #000;
+    text-decoration: none;
+}
+
+.carousel-caption{
+    line-height: 150px;
+}
+
+
+
+.downarrow{
+    height: 25px;
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: #28a4c9;
+    background: white;
+    box-shadow: 0 2px 4px #000;
+    position: absolute;
+    left: 49%;
+}
+
+.websiteFeature{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.websiteFeature>i{color: #2aabd2;
+padding-right: 15px}
+
+h3{
+    font-weight: bold;
+}
+
+.doctors{
+    margin-bottom: 10px;
+    border-top: 2px solid #28a4c9;
+}
+.patients{
+    margin-bottom: 15px;
+    border-top: 2px solid #28a4c9;
+}
+.patient-manuals{width: 100%;
+    height: auto;
+    background: url("../image/2035608-1366x768-[DesktopNexus.com].jpg")no-repeat center center fixed;
+    background-size: cover;
+    background-color: #c4e3f3;
+    color: white;
+    text-decoration: none;
+}
+
+.patient-manuals p{text-decoration: none;
+font-weight: bold}
+
+.patient-manuals h3{margin-left: 5px;
+margin-right: 5px}
+
+.patient-manuals-directory{
+    border-top: 2px solid white;
+    padding: 10px;
+}
+
+.display-block{
+    display: inline-block;
+}
+
+#counting_sec{
+    padding-top:35px;
+    padding-bottom: 35px;
+    background-color: #c0c0c0;
+    color: #0070a3;
+}
+
+#counting_sec h3{
+    border-bottom: 2px solid #0070a3;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.happy-life{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #0070a3;
+}
+.content-box{width: calc(50% - 50px);
+height: 100%;
+background: #0070a3;
+box-sizing: border-box;
+color: white;
+padding: 10px;
+padding-top: 100px}
+
+.content-box p{text-decoration: none;
+font-weight: bold}
+
+.image-box{width: calc(50% + 50px);
+    height: 100%;
+    background: #ff0000;
+    box-sizing: border-box;
+    border-left: 100px solid #0070a3;
+    border-bottom: 400px solid transparent;
+    background: url("../image/69459031-medical-wallpapers.jpg");
+}
+
+.happening-life{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #0070a3;
+}
+.images-box{width: calc(50% - 50px);
+    height: 100%;
+    background: #0070a3;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    padding-top: 100px}
+
+.images-box p{text-decoration: none;
+    font-weight: bold}
+
+.contents-box{width: calc(50% + 50px);
+    height: 100%;
+    background: #ff0000;
+    box-sizing: border-box;
+    border-right: 100px solid #0070a3;
+    border-bottom: 400px solid transparent;
+    background: url("../image/94011.JPG");
+    text-align: center;
+}
+
+.newsletter-section{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background: url("../image/953241-1366x768-[DesktopNexus.com].jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+.newsletter-section h2{
+    font-family: "Monotype Corsiva";
+    font-weight: bold;
+    text-shadow: 0 4px 2px #000;
+}
+
+.newsletter-section p{text-decoration: none;
+font-weight: bold;
+text-shadow: 0 3px 1px #000}
+
+.moderate{
+    padding-bottom: 50px;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.doctors-manuals {
+    background: radial-gradient(#ffffff, #c0c0c0);
+}
+
+.doctors-manuals ul li{list-style: none;font-weight: bold;
+}
+
+.plane{
+    margin-right: 10px;
+    color: #28a4c9;
+}
+
+.business-Partner{
+    width: 100%;
+    height: auto;
+    background: radial-gradient(#ffffff,#c0c0c0);
+    display: flex;
+}
+.business-Partner h2{
+    color: #28a4c9;
+    font-weight: bold;
+    font-family: "Monotype Corsiva";
+}
+
+.logoes-business{
+    margin: 50px;
+    color: #28a4c9;
+    transition: 3s;
+}
+.logoes-business:hover{transform: rotate(360deg)}
+
+.admin-manual{
+    padding-top: 20px;
+    background:radial-gradient(#ffffff,#c0c0c0);
+}
+.admin{
+    padding-top: 50px;
+}
+
+.admin ul li{list-style: none;
+font-weight: bold}
+
+.admin h2{
+    font-weight: bold;
+    font-family: "Monotype Corsiva";
+
+}
+

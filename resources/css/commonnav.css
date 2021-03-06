@@ -1,0 +1,46 @@
+
+.navigation{height: 35px;
+    width: 100%;}
+
+.navigation ul{height: 35px;
+    padding: 0}
+
+.navigation ul li{ height: 35px;
+    width: 16.66%;
+    line-height: 35px;
+    list-style: none;
+    display: block;
+    float: left;
+    background: linear-gradient(#28a4c9,#2aabd2);
+    text-align: center;
+    color: white;
+    border-left: 1px solid #b9def0;
+    cursor: pointer;
+}
+
+.navigation ul li:first-child{border-left: none}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navigation ul li:hover{
+    height: 33px;
+    background: linear-gradient(#2e6da4,#1b6d85);
+    transition: 1s;  }
+
+.navigation ul li ul{
+    display:none;}
+
+.navigation ul li:hover ul{display: block;}
+
+.navigation ul li ul li{
+    display: block;
+    float: none;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
